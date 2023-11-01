@@ -1,5 +1,5 @@
 <!----Demo file---->
-<!----Welcome to Coding---->
+<!----Welcome---->
 
 <?php
 session_start();
