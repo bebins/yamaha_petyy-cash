@@ -1,0 +1,297 @@
+body {
+  width: max-content;
+height: max-content;
+flex-shrink: 0;
+  background: linear-gradient(180deg, #009DFF 0%, #4ED3BF 100%);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+.container-box {
+  margin-top: 20px;
+  margin-left: 11%;
+  width: 1023px;
+  margin-bottom:30px;
+flex-shrink: 0;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 1px -1px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.form{
+margin-left:100px;
+margin-top: -60px;
+padding:50px;
+}
+
+.form-group .form-control {
+  width: 314px;
+height: 37px;
+flex-shrink: 0;
+color: #000;
+font-family: Inter;
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.26px;
+border-radius: 5px;
+border: 1px solid #000;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+label{
+  margin:5px;
+}
+ 
+
+.col-4{
+width: 45.333333%;
+}
+
+
+h3 {
+  margin-left: 107px;
+}
+
+label {
+  float: left;
+}
+a {
+color: white;
+text-decoration: none;
+}
+
+h4 {
+  margin-left: 255px;
+}
+
+
+.button2 {
+margin-top: 10px;
+margin-left: 32%;
+width: 171px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 50px;
+border-radius: 50px;
+background: linear-gradient(180deg, #4DD2C0 0%, #005EA6 100%);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.button2:hover{
+
+background: linear-gradient(180deg, #4DD2C0 0%, #005EA6 100%);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+.import{
+margin-left: 30%;
+margin-top: -40px;
+}
+button.view {
+padding: 5px 16px;
+border-radius: 5px;
+background-color: #00c9b6;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+border:none;
+top: 21px;
+right: 19.5%;
+  position: absolute;
+}
+i.fa {
+position: absolute;
+font-size: 24px;
+margin-left: 85px;
+margin-top: 30px;
+}
+.opening-balance-label {
+margin-top: 48px;
+margin-left: 16px;
+font-weight: bold;
+text-align:center;
+color: #333;
+width: 254px;
+padding-top:7px;
+color:white;
+height: 40px;
+flex-shrink: 0;
+border-radius: 3px;
+background: #005EA6;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.button3 {
+width: 116px;
+height: 41px;
+flex-shrink: 0;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+background: #4fbfdb;
+color: white;
+margin-top: 50px;
+text-align: center;
+border-radius: 5px;
+margin-right: 81%;
+margin-bottom: 10px;
+}
+#neftInfoRow[style*="block"] {
+/* margin-top: -4px; */
+margin-left: 4px;
+width: 0%;
+padding-right: 37%;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+/* text-align:center; */
+}
+
+#ddInfoRow[style*="block"] {
+  /* margin-top: -4px; */
+  margin-left: 4px;
+  width: 0%;
+  padding-right: 37%;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  /* text-align:center; */
+  }
+
+
+  #gpayInfoRow[style*="block"] {
+    /* margin-top: -4px; */
+    margin-left: 4px;
+    width: 0%;
+    padding-right: 37%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    /* text-align:center; */
+    }
+p{
+border-bottom:6px;
+}
+#financeInfoRow[style*="block"] {
+/* margin-top: -4px; */
+margin-left: 4px;
+width: 0%;
+padding-right: 37%;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+
+#gpayInfoRow[style*="block"] {
+/* margin-top: -4px; */
+margin-left: 4px;
+width: 0%;
+padding-right: 37%;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.cust_dropdown{
+width: 19.5rem;
+background-color: white;
+height: max-content;
+border-radius: 4px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.dropdown-item {
+border-bottom: 0.3px solid #4fbfdb;
+}
+
+
+
+
+
+
+
+/* Mobile */
+@media (min-width: 380px) and  (max-width: 767px) {   
+.button2 {
+width: 120px;
+margin-left: 11rem;
+}
+
+.container-box{
+margin-left: 21px;
+width: 46rem;
+}
+body{
+flex-shrink: 0;
+  background: linear-gradient(180deg, #009DFF 0%, #4ED3BF 100%);
+  height:120.6rem;
+  
+}
+
+/* Add custom CSS for mobile layout */
+.form-group {
+margin-top: 10px; /* Add spacing between form elements */
+}
+
+.form-group .form-control {
+width: 100%; /* Make input fields full width */
+margin-right: 0; /* Remove any right margin */
+}
+
+
+
+label {
+display: block; /* Make labels block-level elements to stack them */
+text-align: left; /* Align labels to the left */
+margin: 5px 0; /* Add vertical margin for labels */
+}
+
+
+}
+
+
+/* Tablet */
+
+@media (min-width: 768px) and (max-width:1177px) { 
+body{
+flex-shrink: 0;
+  background: linear-gradient(180deg, #009DFF 0%, #4ED3BF 100%);
+  height:100rem;
+} 
+
+.container-box{
+margin-left: 2%;
+}
+.opening-balance-label{
+margin-top: 3.5rem;
+}
+}
+
+
+@media (max-width: 1177px) {
+.container-box {
+margin-left: 5pc;
+margin-top: 10pc;
+}
+}
+
+
+
+
+
+
+/*Other Style CSS*/
+
+
+.table-container {
+width: 72%;
+overflow-x: auto; /* Add horizontal scrollbar if the table overflows */
+
+border-radius:10px;
+margin-bottom:-4%;
+margin-left: 4px;
+}
+
+.table {
+/* Your table styles here */
+width: 100%; /* Ensure the table takes up the full container width */
+border-collapse: collapse; /* Optional: Collapse table borders */
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+background-color: white;
+height:max-content;
+border-radius: 10px;
+cursor: pointer;
+margin-top: 4%;
+margin-bottom: 4%;
+
+/* z-index: 500;
+position: absolute; */
+}
